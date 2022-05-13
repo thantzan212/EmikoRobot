@@ -316,7 +316,7 @@ def info(update: Update, context: CallbackContext):
         text += "\n\nThe Disaster level of this person is 'Soldier'."
         disaster_level_present = True
     elif user.id == 1829047705:
-         text += "\n\nOwner Of A Bot. Queen Of @excrybaby. Bot Name Inspired From 'JoJo'."
+         text += "\n\nOwner Of A Bot. Queen Of @ဘူ. Bot Name Inspired From 'JoJo'."
          disaster_level_present = True
 
     try:
@@ -353,9 +353,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/KennedyProject/44"),
+                                "Health", url="xnxx.com"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/KennedyProject/43")
+                                "Disaster", url="xnxx.com")
                         ],
                     ]
                 ),
@@ -371,9 +371,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/KennedyProject/44"),
+                                "Health", url="xnxx.com"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/KennedyProject/43")
+                                "Disaster", url="xnxx.com")
                         ],
                     ]
                 ),
@@ -447,7 +447,7 @@ def set_about_me(update: Update, context: CallbackContext):
 def stats(update: Update, context: CallbackContext):
     stats = "<b>╔═━「 Current Emiko Statistics 」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
-    result += "\n<b>╘═━「 Powered By kennedy-ex 」</b>"
+    result += "\n<b>╘═━「 Powered By N4 」</b>"
     update.effective_message.reply_text(
         result,
         parse_mode=ParseMode.HTML, 
